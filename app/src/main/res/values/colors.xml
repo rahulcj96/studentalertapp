@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796b</color>
+    <color name="colorAccent">#388e3c</color>
+    <color name="navtext">#e0e0e0</color>
+    <color name="whatsnew">#4db6ac</color>
+    <color name="white">#f5f5f5</color>
+    <color name="colourOnPressed1">#00796b</color>
+    <color name="colourOnPressed2">#00796b</color>
+    <color name="coloronFocussed1">#009688</color>
+    <color name="coloronFocussed2">#009688</color>
+    <color name="defaultColor1">#4db6ac</color>
+    <color name="defaultColor2">#4db6ac</color>
+</resources>

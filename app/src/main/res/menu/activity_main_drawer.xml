@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_notif"
+        android:icon="@drawable/ic_notifications_black_48dp"
+        android:title="@string/notif_news" />
+
+    <item
+        android:id="@+id/nav_parent"
+        android:icon="@drawable/ic_account_circle_black_48dp"
+    android:title=" Parents Corner "/>
+
+    <item android:title="@string/subjects"
+        android:icon="@drawable/ic_book_black_48dp">
+        <menu>
+            <item
+                android:id="@+id/nav_maths"
+                android:title="@string/daa" />
+            <item
+                android:id="@+id/nav_pom"
+                android:title="@string/ic" />
+            <item
+                android:id="@+id/nav_dms"
+                android:title="@string/ss" />
+            <item
+                android:id="@+id/nav_dsp"
+                android:title="@string/cn" />
+            <item
+                android:id="@+id/nav_os"
+                android:title="@string/se" />
+            <item
+                android:id="@+id/nav_amp"
+                android:title="@string/el" />
+            <item
+                android:id="@+id/nav_databaselab"
+                android:title="@string/oslab" />
+
+            <item
+            android:id="@+id/nav_exam"
+            android:title="@string/question_papers" />
+            <item
+                android:id="@+id/nav_misc"
+                android:title="@string/misc_notes" />
+        </menu>
+    </item>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/send" />
+        </menu>
+    </item>
+
+</menu>

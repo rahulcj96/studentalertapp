@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">student alert app</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="rajagiri">Rajagiri School of Engineering and Technology</string>
+    <string name="notif_news">Notifications and News</string>
+    <string name="notif_link">http://studentalert.16mb.com/api/v1/getnotifications</string>
+
+    <string name="sub_link">https://raw.githubusercontent.com/nickerninja/-resources/master/JsonFiles/download.json</string>
+    <string name="subjects">Subjects</string>
+    <string name="loading">loading!</string>
+    <string name="maths">Design and Analysis of algorithms</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5605337449605410/6194300000</string>
+    <string name="pom">Internet computing</string>
+    <string name="daa">Design and Analysis of Algorithms</string>
+    <string name="ic">Internet Computing</string>
+    <string name="ss">System Software</string>
+    <string name="cn">Computer Networks</string>
+    <string name="se">Software Engineering</string>
+    <string name="el">elective</string>
+    <string name="dms">System Software</string>
+    <string name="dsp">Computer Networks</string>
+    <string name="os">Software Engineering</string>
+    <string name="amp">elective</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="question_papers">Question Papers</string>
+    <string name="misc_notes">Miscellaneous</string>
+    <string name="mainlogo">mainLogo</string>
+    <string name="title">TITLE</string>
+    <string name="name">NAME</string>
+    <string name="AppShare">STUDENT ALERT APP \n</string>
+    <string name="typr">Type :</string>
+    <string name="download">Download</string>
+    <string name="ps"> Currently available only for CSE S6 </string>
+    <string name="databaselab">OS Lab</string>
+    <string name="oslab">Operating System Lab</string>
+    <string name="mplab">Hardware and Microprocessors LAB</string>
+    <string name="Notifications">" Notifications"</string>
+    <string name="description">Description</string>
+    <string name="date">Date :</string>
+    <string name="sent_by">Sent By :</string>
+    <string name="content_description">Content or Description will be Here</string>
+
+</resources>

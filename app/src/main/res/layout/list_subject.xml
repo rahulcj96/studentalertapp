@@ -1,0 +1,146 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    card_view:cardCornerRadius="3dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="7dp"
+    android:layout_marginLeft="7dp"
+    android:layout_marginTop="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:id="@+id/card_view_subject"
+    android:focusable="true"
+    android:elevation="2dp"
+    android:translationZ="5dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_name"
+            android:text="@string/name"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/whatsnew"
+            android:textSize="25sp"
+            android:shadowColor="#000000"
+            android:clickable="false"
+            android:gravity="bottom"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_description"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:text="@string/description"
+            android:shadowColor="#000000"
+            android:clickable="false"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/text_name"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/typr"
+            android:id="@+id/Type_textview"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/text_description"
+            android:layout_marginBottom="5dp"
+            android:layout_alignLeft="@+id/text_description"
+            android:layout_alignStart="@+id/text_description" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textview_type"
+            android:layout_alignTop="@+id/Type_textview"
+            android:layout_alignLeft="@+id/upload_date_blank"
+            android:layout_alignStart="@+id/upload_date_blank" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/download"
+            android:textColor="@color/white"
+            android:id="@+id/button"
+            android:background="@drawable/color_selector"
+            android:layout_below="@+id/uploader"
+            android:layout_marginBottom="10dp"
+            android:layout_alignLeft="@+id/uploader"
+            android:layout_alignStart="@+id/uploader" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/date"
+            android:textStyle="bold"
+            android:id="@+id/upload_date"
+            android:layout_below="@+id/Type_textview"
+            android:layout_alignLeft="@+id/Type_textview"
+            android:layout_alignStart="@+id/Type_textview" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/sent_by"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/uploader"
+            android:layout_below="@+id/upload_date"
+            android:layout_alignLeft="@+id/upload_date"
+            android:layout_alignStart="@+id/upload_date" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/upload_date_blank"
+            android:text=" No Date "
+            android:layout_below="@+id/Type_textview"
+            android:layout_toRightOf="@+id/Type_textview"
+            android:layout_toEndOf="@+id/Type_textview" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/uploader_blank"
+            android:layout_alignTop="@+id/uploader"
+            android:layout_toRightOf="@+id/uploader"
+            android:layout_toEndOf="@+id/uploader" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sharebutton"
+            android:background="@drawable/color_selector"
+            android:src="@android:drawable/ic_menu_share"
+            android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp"
+            android:layout_alignTop="@+id/button"
+            android:layout_toRightOf="@+id/button"
+            android:layout_toEndOf="@+id/button"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_alignBottom="@+id/button" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

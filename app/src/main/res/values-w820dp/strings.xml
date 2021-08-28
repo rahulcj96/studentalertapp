@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">STUDENT ALERT APP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="powered_by_rahul_philip_nishant">Powered By rahul philip and nishant</string>
+    <string name="ps"> Currently available only for CSE S5 </string>
+    <string name="rajagiri">Rajagiri School of Engineering and Technology</string>
+    <string name="notif_news">Notifications and News</string>
+</resources>
